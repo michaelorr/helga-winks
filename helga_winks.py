@@ -1,10 +1,8 @@
-import random
-
 from helga.plugins import command
 
 
 @command('wink', aliases=['winks'], help='winks @ u')
-def kobe(client, channel, nick, message, cmd, args):
+def winks(client, channel, nick, message, cmd, args):
     """
     ~*~*~* winks @ u *~*~*~
     """
