@@ -11,4 +11,4 @@ def winks(client, channel, nick, message, cmd, args):
     elif len(args) == 1:
         return u'~*~*~* {0} winks @ {1} *~*~*~'.format(nick, args[0])
     else:
-        return u'~*~*~* {0} {1} {2} *~*~*~'.format(nick, args[0], args[1])
+        return u'~*~*~* {0} {1} *~*~*~'.format(nick, ' '.join(args))
